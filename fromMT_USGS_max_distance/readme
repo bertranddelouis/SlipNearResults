@@ -1,1 +1,6 @@
 Here are stored the SLIPNEAR solutions triggered when a Moment Tensor (MT) solution appears on the USGS webpage for a large enough earthquake
+
+Results are stored in sub-directories named YYYYMMDDHHMMSS_MwX.X where YYYYMMDDHHMMSS is the origin time of the earthquake in UTC and X.X is the 
+moment magnitude found by the SLIPNEAR inversion
+
+Only results that meet quality and robustness criteria are stored here.
