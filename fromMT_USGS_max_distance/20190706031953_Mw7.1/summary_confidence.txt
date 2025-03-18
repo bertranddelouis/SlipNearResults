@@ -1,0 +1,62 @@
+
+ 321.0  84.0  -171.0  : strike dip rake of plane 1 tested
+ 230.1  81.0    -6.1  : strike dip rake of plane 2 tested
+
+ *************************************************
+ *** Selection of rupture and auxiliary planes ***
+ *************************************************
+
+ 321.0  84.0  -171.0 :strike dip rake of rupture plane
+ 230.1  81.0    -6.1 :strike dip rake of auxiliary plane
+
+  34. : confidence (%) on discrimination of rupture plane
+
+ !!!!!!!!!!!!*****  NOTE  ****!!!!!!!!!!!!!!!!!!!!
+ !!!!  Discrimination of the rupture plane  !!!!!!
+ !!!!   is based on the differences in RMS   !!!!!
+ !!!! misfit functions between the two planes !!!!
+ !!!  and on their relative number of retained !!!
+ !!!!            components                   !!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ !!!!!!!!!!!!*** CAUTION 1 ***!!!!!!!!!!!!!!!!!!!!
+ !!!! Discrimination of the rupture plane   !!!!!!
+ !!!! should be considered only if the above !!!!!
+ !!!! index of confidence is higher than 70% !!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ !!!!!!!!!!!!*** CAUTION 2 ***!!!!!!!!!!!!!!!!!!!!
+ !!!!  Discrimination of the rupture plane  !!!!!!
+ !!!!    may not be meaningful if slip is    !!!!!
+ !!!!   essentially distributed near the     !!!!!
+ !!!!  hypocenter (case of ~ no directivity) !!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ *************************************************
+
+ !!!!!!!!!!!!*****  NOTE  ****!!!!!!!!!!!!!!!!!!!!
+ !! The index of confidence on the slipmap  !!!!!!
+ !!!   is an indicator of the stability      !!!!!
+ !! of the result among 5 different inversions. !!
+ !!! It is based on a mesure of the discrepancy !!
+ !!!   between 5 inverted slipmaps per plane,   !!
+ !!!         taking also into account           !!
+ !!!     the number of components retained,     !!
+ !! the rms misfit error, the variability of Mw, !
+ !!! and the variability of the maximum slip   !!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ *************************************************
+
+ 100.  :confidence (%) on slipmap of plane 1
+ 100.  :confidence (%) on slipmap of plane 2
+ *************************************************
+
+  37 :number of components used for plane 1 for its best depth
+  37 :number of components used for plane 2 for its best depth
+    5.0 :best depth (km) found for plane 1
+    5.0 :best depth (km) found for plane 2
+   3.96   4.45 :min and max value of slipmax (m) found for plane 1            for its b
+   5.46   6.41 :min and max value of slipmax (m) found for plane 2            for its b
+  7.07  7.09 :min and max value of Mw found for plane 1                     
+  7.00  7.03 :min and max value of Mw found for plane 2                     
