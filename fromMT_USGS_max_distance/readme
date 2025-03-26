@@ -5,4 +5,31 @@ moment magnitude found by the SLIPNEAR inversion
 
 Only results that meet quality and robustness criteria are stored here.
 
-A compléter...
+List of files per event:
+
+model_SRFv2_average1: kinematic fault model in SRF format (Graves v2.0) for nodal planes 1 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+model_SRFv2_average2: kinematic fault model in SRF format (Graves v2.0) for nodal planes 2 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+
+
+disloc_model_average1: kinematic fault model in B. Delouis format for nodal planes 1 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+disloc_model_average2: kinematic fault model in B. Delouis format for nodal planes 2 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+
+
+result_complete_average1.jpg: graphical result file for nodal planes 1 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+result_complete_average2.jpg: graphical result file for nodal planes 2 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+
+
+result_slipinv_average1: text result file for nodal planes 1 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+result_slipinv_average2: text result file for nodal planes 2 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+
+
+summary_confidence.txt: summary of the confidence indexes and of some parameters for each nodal plane, report on the discrimination of the
+rupture and auxiliary planes
+Example:
+                321.0  84.0  -171.0 :strike dip rake of rupture plane
+                230.1  81.0    -6.1 :strike dip rake of auxiliary plane
+
+                 34. : confidence (%) on discrimination of rupture plane
+means that nodal plane 321.0  84.0  -171.0 is identified as the fault plane with a confidence of 34%, i.e. with a low probability.
+The threshold for reliable disrimination is 70% of confidence.
+
