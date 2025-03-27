@@ -1,1 +1,65 @@
+Here are stored the SLIPNEAR solutions triggered when a Moment Tensor (MT) solution is obtained with the FMNEAR method implemented at Geoazur/OCA (source machine) for a large enough earthquake
+
+Here stations are requested up to the maximum distance according to the magnitude.
+
+Results are stored in sub-directories named YYYYMMDDHHMMSS_MwX.X where YYYYMMDDHHMMSS is the origin time of the earthquake in UTC and X.X is the 
+moment magnitude found by the SLIPNEAR inversion
+
+Only results that meet quality and robustness criteria are stored here. For example, if the confidence on the slipmap of a nodal plane is lower than
+70% it will not be shown.
+
+List of files per event:
+
+---------------------------------
+model_SRFv2_average1: kinematic fault model in SRF format (Graves v2.0) for nodal planes 1 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+model_SRFv2_average2: kinematic fault model in SRF format (Graves v2.0) for nodal planes 2 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+---------------------------------
+
+disloc_model_average1: kinematic fault model in B. Delouis format for nodal planes 1 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+disloc_model_average2: kinematic fault model in B. Delouis format for nodal planes 2 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+
+----------------------------------
+result_complete_average1.jpg: graphical result file for nodal planes 1 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+result_complete_average2.jpg: graphical result file for nodal planes 2 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+----------------------------------
+
+result_slipinv_average1: text result file for nodal planes 1 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+result_slipinv_average2: text result file for nodal planes 2 of the focal mechanism (can be the rupture plane or the auxiliary plane)
+shear 
+---------------------------------
+summary_confidence.txt: summary of the confidence indexes and of some parameters for each nodal plane, report on the discrimination of the
+rupture and auxiliary planes
+
+Example 1 of discrimination:
+                321.0  84.0  -171.0 :strike dip rake of rupture plane
+                230.1  81.0    -6.1 :strike dip rake of auxiliary plane
+
+                 34. : confidence (%) on discrimination of rupture plane
+means that nodal plane 321.0  84.0  -171.0 is identified as the rupture plane with a confidence of 34%, i.e. with a low probability.
+The threshold for reliable disrimination is 70% of confidence. In that case the rupture plane cannot be considered as identified.
+
+Example 2 of discrimination:
+
+ 276.0  29.0   -88.0 :strike dip rake of rupture plane
+  93.7  61.0   -91.1 :strike dip rake of auxiliary plane
+
+  74. : confidence (%) on discrimination of rupture plane
+means that nodal plane 276.0  29.0   -88.0 is identified as the rupture plane with a confidence of 74%, hence above the threshold
+of 70%. In that case the rupture plane can be considered as identified.
+--------------------------------
+
+displacement_xN_yE_Zup_lat_lon_average1.txt: surface displacement values (cm) produced by the slip model on nodal plane 1 (can be the rupture plane or the auxiliary plane)
+displacement_xN_yE_Zup_lat_lon_average2.txt: surface displacement values (cm) produced by the slip model on nodal plane 2 (can be the rupture plane or the auxiliary plane)
+The content is  'Lat    Lon    Disp_x_East(cm)   Disp_y_North(cm)   DispUp(cm)' for a grid of points in the rupture area. Grid spacing is a function of earthquake magnitude (about 10k points).
+---------------------------------
+
+model_vel: velocity model used to generate the synthetic seismograms. Note that this model is not used to infer the mu (shear modulus) to be used to convert 
+seismic moment into slip in the inversion. Instead, a constant value of mu is used for that conversion, assuming an homogenized fault zone (see description is
+the kinematic fault model files)
+
+--------------------------------
+
+icg_unsaturated: index of confidence used to select the best solution when different inversions have been run for the same event. The value may be larger than 100%.
+
+-------------------------------
 
