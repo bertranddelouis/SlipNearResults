@@ -56,6 +56,14 @@ model_vel: velocity model used to generate the synthetic seismograms. Note that 
 seismic moment into slip in the inversion. Instead, a constant value of mu is used for that conversion, assuming an homogenized fault zone (see description is
 the kinematic fault model files)
 
+Example: 
+
+5 : nlayers                                                                            
+  7.50    4.50    2.60    2.05   400.00   200.00   :  Thickness (km)   Vp (km/s)   Vs (km/s)  dens (g/cm3)  Qp  Qs                            
+  7.50    5.23    3.03    2.31   500.33   250.00                                
+  7.50    5.97    3.45    2.56   600.00   300.00                                
+  7.50    6.70    3.87    2.82   700.00   350.00                                
+  0.00    7.90    4.57    3.30  1000.00   500.00   (Mantle)
 --------------------------------
 
 icg_unsaturated: index of confidence used to select the best solution when different inversions have been run for the same event. The value may be larger than 100%.
