@@ -45,3 +45,9 @@ The content is  'Lat    Lon    Disp_x_East(cm)   Disp_y_North(cm)   DispUp(cm)' 
 model_vel: velocity model used to generate the synthetic seismograms. Note that this model is not used to infer the mu (shear modulus) to be used to convert 
 seismic moment into slip in the inversion. Instead, a constant value of mu is used for that conversion, assuming an homogenized fault zone (see description is
 the kinematic fault model files)
+
+--------------------------------
+
+icg_unsaturated: index of confidence used to select the best solution when different inversions have been run for the same event. The value may be larger than 100%.
+
+-------------------------------
