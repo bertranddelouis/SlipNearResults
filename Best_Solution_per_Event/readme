@@ -2,7 +2,7 @@ Here are stored the best SLIPNEAR solution for each processed event. The best so
 whether triggered by the USGS, GFZ, or FMNEAR Moment Tensor (MT) solution. 
 
 Results are stored in sub-directories named YYYYMMDDHHMMSS_MwX.X where YYYYMMDDHHMMSS is the origin time of the earthquake in UTC and X.X is the 
-moment magnitude found by the SLIPNEAR inversion
+moment magnitude from triggering agency.
 
 Only results that meet quality and robustness criteria are stored here. For example, if the confidence on the slipmap of a nodal plane is lower than
 70% it will not be shown.
