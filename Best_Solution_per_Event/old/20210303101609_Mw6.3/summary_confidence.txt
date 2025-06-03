@@ -48,15 +48,15 @@
 
  *************************************************
 
-  89.  :confidence (%) on slipmap of plane 1
-  87.  :confidence (%) on slipmap of plane 2
+  82.  :confidence (%) on slipmap of plane 1
+  68.  :confidence (%) on slipmap of plane 2
  *************************************************
 
-  23 :number of components used for plane 1 for its best depth
-  23 :number of components used for plane 2 for its best depth
+  18 :number of components used for plane 1 for its best depth
+  18 :number of components used for plane 2 for its best depth
    12.0 :best depth (km) found for plane 1
    12.0 :best depth (km) found for plane 2
-   0.53   0.82 :min and max value of slipmax (m) found for plane 1            for its b
-   0.40   0.61 :min and max value of slipmax (m) found for plane 2            for its b
-  6.39  6.42 :min and max value of Mw found for plane 1                     
-  6.36  6.37 :min and max value of Mw found for plane 2                     
+   0.50   0.72 :min and max value of slipmax (m) found for plane 1            for its b
+   0.43   0.58 :min and max value of slipmax (m) found for plane 2            for its b
+  6.41  6.43 :min and max value of Mw found for plane 1                     
+  6.35  6.36 :min and max value of Mw found for plane 2                     
