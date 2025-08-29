@@ -3,14 +3,14 @@
     50.0    20.0   112.2
  ********************************************
  
-RMS average model =   0.576
+RMS average model =   0.468
  
  
 Hypocentral depth used:   5.0 km
  
-Mw from slip inversion:  6.60
+Mw from slip inversion:  -Inf
  
-Maximum slip:    1.06      m
+Maximum slip:    0.93      m
  
 Depth of top of rupture model:    0.0 km
  
@@ -23,11 +23,11 @@ Epicenter used (lat,long):    4.512  -73.144
  
  
  Event directory:
- /home/delouis/SLIPNEAR_global/SLIPNEAR/20250608130807_depth1/plan1_1_hypo_centr
- e/averagesol
+ /home/delouis/SLIPNEAR_SAR_OPTCOR/SLIPNEAR/20250608130807_depth1/plan1_2_hypo_u
+ p/averagesol
  
  Date of computation:
- Sun Jun  8 16:20:46 CEST 2025
+ Fri Aug 29 10:39:24 CEST 2025
  
  Method used: SLIPNEAR 
  
