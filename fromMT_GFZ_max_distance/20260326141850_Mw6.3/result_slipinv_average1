@@ -1,0 +1,32 @@
+ ********************************************
+  Plane 1: strike   dip    rake
+   176.0    20.0    58.0
+ ********************************************
+
+RMS average model =   0.489
+
+
+Hypocentral depth used:  25.0 km
+
+Mw from slip inversion:  6.31
+
+Maximum slip:    0.46      m
+
+Depth of top of rupture model:   15.6 km
+
+Epicenter used (lat,long):   39.446  143.372
+
+ strike dip rake of the other nodal plane:
+   29.6   73.1  100.9
+
+
+
+
+ Event directory:
+ /home/delouis/SLIPNEAR_global_trig_GFZ/SLIPNEAR/20260326141850_depth1/plan1_1_hypo_centre/averagesol
+
+ Date of computation:
+ jeu. 26 mars 2026 15:55:12 CET
+
+ Method used: SLIPNEAR 
+
