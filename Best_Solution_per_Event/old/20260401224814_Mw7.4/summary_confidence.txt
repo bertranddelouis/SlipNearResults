@@ -1,15 +1,15 @@
 
-   9.0  37.0    69.0  : strike dip rake of plane 1 tested
- 214.7  55.8   105.1  : strike dip rake of plane 2 tested
+ 196.0  54.0    87.0  : strike dip rake of plane 1 tested
+  21.1  36.1    94.1  : strike dip rake of plane 2 tested
 
  *************************************************
  *** Selection of rupture and auxiliary planes ***
  *************************************************
 
-   9.0  37.0    69.0 :strike dip rake of rupture plane
- 214.7  55.8   105.1 :strike dip rake of auxiliary plane
+  21.1  36.1    94.1 :strike dip rake of rupture plane
+ 196.0  54.0    87.0 :strike dip rake of auxiliary plane
 
-  22. : confidence (%) on discrimination of rupture plane
+  20. : confidence (%) on discrimination of rupture plane
 
  !!!!!!!!!!!!*****  NOTE  ****!!!!!!!!!!!!!!!!!!!!
  !!!!  Discrimination of the rupture plane  !!!!!!
@@ -48,15 +48,15 @@
 
  *************************************************
 
-  99.  :confidence (%) on slipmap of plane 1
-  93.  :confidence (%) on slipmap of plane 2
+  93.  :confidence (%) on slipmap of plane 1
+ 100.  :confidence (%) on slipmap of plane 2
  *************************************************
 
-  30 :number of components used for plane 1 for its best depth
-  30 :number of components used for plane 2 for its best depth
-   39.0 :best depth (km) found for plane 1
-   39.0 :best depth (km) found for plane 2
-   2.28   2.93 :min and max value of slipmax (m) found for plane 1            for its b
-   2.76   4.73 :min and max value of slipmax (m) found for plane 2            for its b
-  7.31  7.33 :min and max value of Mw found for plane 1                     
+  28 :number of components used for plane 1 for its best depth
+  28 :number of components used for plane 2 for its best depth
+   26.6 :best depth (km) found for plane 1
+   26.6 :best depth (km) found for plane 2
+   4.01   5.55 :min and max value of slipmax (m) found for plane 1            for its b
+   2.15   3.16 :min and max value of slipmax (m) found for plane 2            for its b
+  7.32  7.35 :min and max value of Mw found for plane 1                     
   7.34  7.36 :min and max value of Mw found for plane 2                     
