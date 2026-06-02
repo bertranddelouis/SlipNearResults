@@ -6,10 +6,10 @@
  *** Selection of rupture and auxiliary planes ***
  *************************************************
 
-   8.0  17.0    92.0 :strike dip rake of rupture plane
- 185.9  73.0    89.4 :strike dip rake of auxiliary plane
+ 185.9  73.0    89.4 :strike dip rake of rupture plane
+   8.0  17.0    92.0 :strike dip rake of auxiliary plane
 
-   0. : confidence (%) on discrimination of rupture plane
+   5. : confidence (%) on discrimination of rupture plane
 
  !!!!!!!!!!!!*****  NOTE  ****!!!!!!!!!!!!!!!!!!!!
  !!!!  Discrimination of the rupture plane  !!!!!!
@@ -48,15 +48,15 @@
 
  *************************************************
 
- 100.  :confidence (%) on slipmap of plane 1
+  96.  :confidence (%) on slipmap of plane 1
  100.  :confidence (%) on slipmap of plane 2
  *************************************************
 
-  38 :number of components used for plane 1 for its best depth
-  38 :number of components used for plane 2 for its best depth
+  32 :number of components used for plane 1 for its best depth
+  32 :number of components used for plane 2 for its best depth
    20.0 :best depth (km) found for plane 1
-   20.0 :best depth (km) found for plane 2
-   0.20   0.22 :min and max value of slipmax (m) found for plane 1            for its b
-   0.39   0.41 :min and max value of slipmax (m) found for plane 2            for its b
-  5.76  5.76 :min and max value of Mw found for plane 1                     
-  5.77  5.78 :min and max value of Mw found for plane 2                     
+   26.0 :best depth (km) found for plane 2
+   0.21   0.34 :min and max value of slipmax (m) found for plane 1            for its b
+   0.35   0.37 :min and max value of slipmax (m) found for plane 2            for its b
+  5.74  5.76 :min and max value of Mw found for plane 1                     
+  5.73  5.74 :min and max value of Mw found for plane 2                     
